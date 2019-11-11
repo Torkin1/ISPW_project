@@ -1,39 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_fOvpQPNmEemPR8qA9G1cqQ" name="UC_diagram">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_fOvpQPNmEemPR8qA9G1cqQ" name="UC_diagram" visibility="package">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_RvFN8AOzEeqEqMAQksnsEg" annotatedElement="_cOJqUAOyEeqEqMAQksnsEg">
+    <body>Bisogna stabilire il meccanismo (non implementativo, ma solo in teoria) di come un'azienda possa trovare persone da assumere all'interno del sistema. In altre parole, bisogna stabilire un collegamento tra Users e Company talent scouts.</body>
+  </ownedComment>
   <packageImport xmi:type="uml:PackageImport" xmi:id="_fbYXEPNmEemPR8qA9G1cqQ">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:Package" xmi:id="_4AtuEPNmEemPR8qA9G1cqQ" name="System">
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_AuA1YPNnEemPR8qA9G1cqQ" name="Request a Favor">
-      <include xmi:type="uml:Include" xmi:id="_giNKUPNoEemPR8qA9G1cqQ" addition="_ao08IPNoEemPR8qA9G1cqQ"/>
-      <include xmi:type="uml:Include" xmi:id="_cXhdIPNpEemPR8qA9G1cqQ" addition="_0do-APNoEemPR8qA9G1cqQ"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_AuA1YPNnEemPR8qA9G1cqQ" name="Request a Favor*">
+      <include xmi:type="uml:Include" xmi:id="_IImYsAOvEeqEqMAQksnsEg" addition="_5meMAAOuEeqEqMAQksnsEg"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_q-R9EPNnEemPR8qA9G1cqQ" name="Offer a Favor">
-      <include xmi:type="uml:Include" xmi:id="_qq7t0PNoEemPR8qA9G1cqQ" addition="_ao08IPNoEemPR8qA9G1cqQ"/>
-      <include xmi:type="uml:Include" xmi:id="_fDNAQPNpEemPR8qA9G1cqQ" addition="_0do-APNoEemPR8qA9G1cqQ"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_q-R9EPNnEemPR8qA9G1cqQ" name="Offer a Favor*">
+      <include xmi:type="uml:Include" xmi:id="_JTdpUAOvEeqEqMAQksnsEg" addition="_5meMAAOuEeqEqMAQksnsEg"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_wD06kPNnEemPR8qA9G1cqQ" name="Answer an ad">
-      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_otRcYPNqEemPR8qA9G1cqQ" name="ExtensionPoint1"/>
-      <include xmi:type="uml:Include" xmi:id="_E17JIPNrEemPR8qA9G1cqQ" addition="_xzYFQPNqEemPR8qA9G1cqQ"/>
-      <include xmi:type="uml:Include" xmi:id="_HIb-UPNrEemPR8qA9G1cqQ" addition="_2btiUPNqEemPR8qA9G1cqQ"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="__QwXwPNnEemPR8qA9G1cqQ" name="validation of a done favor">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="__QwXwPNnEemPR8qA9G1cqQ" name="validation of a done favor*">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_e9sYsPNqEemPR8qA9G1cqQ" name="ExtensionPoint1"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_ao08IPNoEemPR8qA9G1cqQ" name="Publish an Ad">
-      <include xmi:type="uml:Include" xmi:id="_NrlXsPNqEemPR8qA9G1cqQ" addition="_0do-APNoEemPR8qA9G1cqQ"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_0do-APNoEemPR8qA9G1cqQ" name="Login"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_UgL4APNqEemPR8qA9G1cqQ" name="Write a Review">
       <extend xmi:type="uml:Extend" xmi:id="_e9rxoPNqEemPR8qA9G1cqQ" extendedCase="__QwXwPNnEemPR8qA9G1cqQ" extensionLocation="_e9sYsPNqEemPR8qA9G1cqQ"/>
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_byrOMPNqEemPR8qA9G1cqQ" name="ExtensionPoint1"/>
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_dJw88PNqEemPR8qA9G1cqQ" name="ExtensionPoint2"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_gqB-sPNqEemPR8qA9G1cqQ" name="View Publisher's Profile">
-      <extend xmi:type="uml:Extend" xmi:id="_otQOQPNqEemPR8qA9G1cqQ" extendedCase="_wD06kPNnEemPR8qA9G1cqQ" extensionLocation="_otRcYPNqEemPR8qA9G1cqQ"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_3_iAMAOqEeqEqMAQksnsEg" name="Check Answers*">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_MjOGsAOrEeqEqMAQksnsEg" name="ExtensionPoint1"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_xzYFQPNqEemPR8qA9G1cqQ" name="Search for a Request"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_2btiUPNqEemPR8qA9G1cqQ" name="Search for an offer"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_EFDnkAOrEeqEqMAQksnsEg" name="Contact an Answerer">
+      <extend xmi:type="uml:Extend" xmi:id="_MjNfoAOrEeqEqMAQksnsEg" extendedCase="_3_iAMAOqEeqEqMAQksnsEg" extensionLocation="_MjOGsAOrEeqEqMAQksnsEg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_cCxdkAOuEeqEqMAQksnsEg" name="Ask a favor from an offerer*">
+      <include xmi:type="uml:Include" xmi:id="_OuThYAOvEeqEqMAQksnsEg" addition="_A5twIAOvEeqEqMAQksnsEg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_soy0oAOuEeqEqMAQksnsEg" name="Answer a Request of a Favor*">
+      <include xmi:type="uml:Include" xmi:id="_QHsWMAOvEeqEqMAQksnsEg" addition="_A5twIAOvEeqEqMAQksnsEg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_5meMAAOuEeqEqMAQksnsEg" name="Publish an Ad"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_A5twIAOvEeqEqMAQksnsEg" name="View an Ad">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_Xyd-oAOxEeqEqMAQksnsEg" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_2PjooAOwEeqEqMAQksnsEg" name="Contact the Publisher">
+      <extend xmi:type="uml:Extend" xmi:id="_XycwgAOxEeqEqMAQksnsEg" extendedCase="_A5twIAOvEeqEqMAQksnsEg" extensionLocation="_Xyd-oAOxEeqEqMAQksnsEg"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_F8NHsAOxEeqEqMAQksnsEg" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_cOJqUAOyEeqEqMAQksnsEg" name="Hire Talents*"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_9fK60PNmEemPR8qA9G1cqQ" name="User"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_Gs_f0PNoEemPR8qA9G1cqQ" memberEnd="_GtAG4fNoEemPR8qA9G1cqQ _GtAG4vNoEemPR8qA9G1cqQ">
@@ -42,13 +50,6 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_GtAG4fNoEemPR8qA9G1cqQ" name="validation of a done favor" type="__QwXwPNnEemPR8qA9G1cqQ" association="_Gs_f0PNoEemPR8qA9G1cqQ"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_GtAG4vNoEemPR8qA9G1cqQ" name="user" type="_9fK60PNmEemPR8qA9G1cqQ" association="_Gs_f0PNoEemPR8qA9G1cqQ"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_NwYDAPNoEemPR8qA9G1cqQ" memberEnd="_NwYqEvNoEemPR8qA9G1cqQ _NwZRIPNoEemPR8qA9G1cqQ">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NwYqEPNoEemPR8qA9G1cqQ" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NwYqEfNoEemPR8qA9G1cqQ" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_NwYqEvNoEemPR8qA9G1cqQ" name="answer an ad" type="_wD06kPNnEemPR8qA9G1cqQ" association="_NwYDAPNoEemPR8qA9G1cqQ"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_NwZRIPNoEemPR8qA9G1cqQ" type="_Gs_f0PNoEemPR8qA9G1cqQ" association="_NwYDAPNoEemPR8qA9G1cqQ"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_Pg7aoPNoEemPR8qA9G1cqQ" memberEnd="_Pg8BsvNoEemPR8qA9G1cqQ _Pg8Bs_NoEemPR8qA9G1cqQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Pg8BsPNoEemPR8qA9G1cqQ" source="org.eclipse.papyrus">
@@ -63,5 +64,48 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_RYeyIPNoEemPR8qA9G1cqQ" name="request a favor" type="_AuA1YPNnEemPR8qA9G1cqQ" association="_RYdkAPNoEemPR8qA9G1cqQ"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_RYeyIfNoEemPR8qA9G1cqQ" type="_9fK60PNmEemPR8qA9G1cqQ" association="_RYdkAPNoEemPR8qA9G1cqQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8D08EAOqEeqEqMAQksnsEg" memberEnd="_8D3YUAOqEeqEqMAQksnsEg _8D3YUQOqEeqEqMAQksnsEg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8D2KMAOqEeqEqMAQksnsEg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8D2xQAOqEeqEqMAQksnsEg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8D3YUAOqEeqEqMAQksnsEg" name="check answers" type="_3_iAMAOqEeqEqMAQksnsEg" association="_8D08EAOqEeqEqMAQksnsEg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8D3YUQOqEeqEqMAQksnsEg" name="user" type="_9fK60PNmEemPR8qA9G1cqQ" association="_8D08EAOqEeqEqMAQksnsEg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_j0H6AAOuEeqEqMAQksnsEg" memberEnd="_j0JIIQOuEeqEqMAQksnsEg _j0JIIgOuEeqEqMAQksnsEg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_j0IhEAOuEeqEqMAQksnsEg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_j0JIIAOuEeqEqMAQksnsEg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_j0JIIQOuEeqEqMAQksnsEg" name="ask a favor from an offerer" type="_cCxdkAOuEeqEqMAQksnsEg" association="_j0H6AAOuEeqEqMAQksnsEg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_j0JIIgOuEeqEqMAQksnsEg" name="user" type="_9fK60PNmEemPR8qA9G1cqQ" association="_j0H6AAOuEeqEqMAQksnsEg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wx-QgAOuEeqEqMAQksnsEg" memberEnd="_wx-3kgOuEeqEqMAQksnsEg _wx-3kwOuEeqEqMAQksnsEg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wx-3kAOuEeqEqMAQksnsEg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wx-3kQOuEeqEqMAQksnsEg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wx-3kgOuEeqEqMAQksnsEg" name="answer a request of a favor" type="_soy0oAOuEeqEqMAQksnsEg" association="_wx-QgAOuEeqEqMAQksnsEg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wx-3kwOuEeqEqMAQksnsEg" name="user" type="_9fK60PNmEemPR8qA9G1cqQ" association="_wx-QgAOuEeqEqMAQksnsEg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ZOLHoAOxEeqEqMAQksnsEg" memberEnd="_ZOM80QOxEeqEqMAQksnsEg _ZOM80gOxEeqEqMAQksnsEg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZOMVwAOxEeqEqMAQksnsEg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZOM80AOxEeqEqMAQksnsEg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ZOM80QOxEeqEqMAQksnsEg" name="user" type="_9fK60PNmEemPR8qA9G1cqQ" association="_ZOLHoAOxEeqEqMAQksnsEg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ZOM80gOxEeqEqMAQksnsEg" name="contact the publisher" type="_2PjooAOwEeqEqMAQksnsEg" association="_ZOLHoAOxEeqEqMAQksnsEg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Fcc0IAOyEeqEqMAQksnsEg" name="Company Talent Scout"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_e0nWQAOyEeqEqMAQksnsEg" memberEnd="_e0okYgOyEeqEqMAQksnsEg _e0okYwOyEeqEqMAQksnsEg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_e0okYAOyEeqEqMAQksnsEg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_e0okYQOyEeqEqMAQksnsEg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_e0okYgOyEeqEqMAQksnsEg" name="hire talents" type="_cOJqUAOyEeqEqMAQksnsEg" association="_e0nWQAOyEeqEqMAQksnsEg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_e0okYwOyEeqEqMAQksnsEg" name="company talent scout" type="_Fcc0IAOyEeqEqMAQksnsEg" association="_e0nWQAOyEeqEqMAQksnsEg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4G1ocAOyEeqEqMAQksnsEg" memberEnd="_4G22kAOyEeqEqMAQksnsEg _4G22kQOyEeqEqMAQksnsEg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4G2PgAOyEeqEqMAQksnsEg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4G2PgQOyEeqEqMAQksnsEg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4G22kAOyEeqEqMAQksnsEg" name="user" type="_9fK60PNmEemPR8qA9G1cqQ" association="_4G1ocAOyEeqEqMAQksnsEg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4G22kQOyEeqEqMAQksnsEg" name="contact an answerer" type="_EFDnkAOrEeqEqMAQksnsEg" association="_4G1ocAOyEeqEqMAQksnsEg"/>
   </packagedElement>
 </uml:Model>
