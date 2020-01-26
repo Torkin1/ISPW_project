@@ -7,9 +7,7 @@ addons:
                 token:
                         secure: 4e99d32eb892fa6c7b94fc86ca75b1ab90b8bffe
 notifications:
-        slack:
-                rooms:
-	                - mjstudygroup:aroIFvc9nvH41hQM5lQ1gZon#ispw_project_deliverables
+  	slack: mjstudygroup:aroIFvc9nvH41hQM5lQ1gZon
 
 script: 
         - ant build
