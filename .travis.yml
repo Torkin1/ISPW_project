@@ -9,7 +9,7 @@ addons:
 notifications:
         slack:
                 rooms:
-	                - mjstudygroup:aroIFvc9nvH41hQM5lQ1gZon##ispw_project_deliverables
+	                - mjstudygroup:aroIFvc9nvH41hQM5lQ1gZon#ispw_project_deliverables
 
 script: 
         - ant build
