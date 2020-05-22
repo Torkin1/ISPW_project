@@ -12,6 +12,15 @@ body{
 }
 */
 
+.pre-cont{
+    border: 2px solid white;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    position: relative;
+    top: 40px;
+}
+
 .container {
      width: 100%;
     margin: 70px auto;
@@ -24,7 +33,6 @@ body{
     position: relative;
     width: 869px;
     height: 650px;
-    background: #ff0;
     margin: 10px;
     box-sizing: border-box;
     display: inline-block;
@@ -42,6 +50,8 @@ body{
 }
 .container .box:hover .imgBox img{
     transform: scale(1.2);
+        padding-bottom: 1200px;
+
 }
 
 .container .box .details{
@@ -55,7 +65,7 @@ body{
         
 }
 
-.container .box:hover .details{
+.container .box:active .details{
     transform: scaleY(1);
 }
 .container .box .details .content{
