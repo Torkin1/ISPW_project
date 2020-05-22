@@ -1,0 +1,145 @@
+{
+  "id": "4f4f0244-34d0-4f8e-aacf-7f124efd521d",
+  "version": "2.0",
+  "name": "TestContactInfo",
+  "url": "http://localhost:8080",
+  "tests": [{
+    "id": "3eb6f080-7191-424f-b375-28ddc7f84361",
+    "name": "TestContactInfoAlert",
+    "commands": [{
+      "id": "6e3253b9-85ff-4112-bed4-abd0f1ee9e00",
+      "comment": "",
+      "command": "open",
+      "target": "/iNeed/index.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff682c1a-9dcd-4442-a671-c4e2d5e81b9e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x702",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0fe8d1fd-10ac-49d5-bbf6-7611f6bc81d6",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "acc449fd-8e98-4972-becc-5e77dda9c9cc",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "daniele"
+    }, {
+      "id": "7ee70801-5338-4a8b-aff7-a38387470d78",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='pswField']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "daniele"
+    }, {
+      "id": "50c73275-a8bb-4bbe-9e7f-0dd622a108c1",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//button[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='btn']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0be00e63-634b-41c0-a65a-e3cb125545d5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Prova Selenium 0",
+      "targets": [
+        ["linkText=Prova Selenium 0", "linkText"],
+        ["css=tr:nth-child(1) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Prova Selenium 0')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'ViewFlow.jsp?id=0')]", "xpath:href"],
+        ["xpath=//td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Prova Selenium 0')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "05f78b02-64c8-4bb3-a3dd-739e7e9ae65e",
+      "comment": "",
+      "command": "click",
+      "target": "name=bCheckAnswers",
+      "targets": [
+        ["name=bCheckAnswers", "name"],
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@name='bCheckAnswers']", "xpath:attributes"],
+        ["xpath=//div[@id='actionOnAdArea']/a/button", "xpath:idRelative"],
+        ["xpath=//a/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "338a1b42-ca82-49a0-b5ba-ffbb79fe7207",
+      "comment": "",
+      "command": "click",
+      "target": "id=contactUser",
+      "targets": [
+        ["id=contactUser", "id"],
+        ["name=contactUser", "name"],
+        ["css=#contactUser", "css:finder"],
+        ["xpath=//button[@id='contactUser']", "xpath:attributes"],
+        ["xpath=//td[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Contact User')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "781253e2-7b56-4c02-8331-a986bbeabf41",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=contactInfo",
+      "targets": [
+        ["id=contactInfo", "id"],
+        ["css=#contactInfo", "css:finder"],
+        ["xpath=//p[@id='contactInfo']", "xpath:attributes"],
+        ["xpath=//div[@id='actionModal']/div/div/div[2]/p[2]", "xpath:idRelative"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'a@b.com')]", "xpath:innerText"]
+      ],
+      "value": "a@b.com"
+    }]
+  }],
+  "suites": [{
+    "id": "b19791bb-423d-4761-80fb-fbcde3a2244b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3eb6f080-7191-424f-b375-28ddc7f84361"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}
