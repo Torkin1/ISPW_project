@@ -1,0 +1,142 @@
+{
+  "id": "b3c1d3ba-ea5a-4a1d-b431-d19f44a539c9",
+  "version": "2.0",
+  "name": "TestValidateAFavor",
+  "url": "http://localhost:8081",
+  "tests": [{
+    "id": "32bc1690-6649-4e2d-93bd-25df8f49365b",
+    "name": "ValidateAFavor",
+    "commands": [{
+      "id": "c90e9ace-de8e-4956-97cc-a8b15219eeb7",
+      "comment": "",
+      "command": "open",
+      "target": "/iNeed/Login.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "215bdaa4-1cd2-48a7-b09b-365728cb0e20",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x705",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05a100e8-2072-4247-b4ca-9695ef0c3e71",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b61a745e-bdcb-48c8-9848-ebc9ab97e125",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "prova"
+    }, {
+      "id": "b6db8b3d-11d5-49f9-900f-6350a2bd4c55",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='pswField']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "1a41ae57-4e73-4db1-a2ce-e807209365c8",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//button[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='btn']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "98b9c0b7-52e2-453b-9f36-9a2fb02215fe",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Validate A Favor",
+      "targets": [
+        ["linkText=Validate A Favor", "linkText"],
+        ["css=.nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Validate A Favor')]", "xpath:link"],
+        ["xpath=//div[@id='navbarMenu']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'ValidateAFavor.jsp')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Validate A Favor')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "67c1e82d-5866-482e-b22d-bc4ca12744c7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Validate!",
+      "targets": [
+        ["linkText=Validate!", "linkText"],
+        ["css=td > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Validate!')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'ValidateAFavor.jsp?i=0')]", "xpath:href"],
+        ["xpath=//td[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Validate!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "474ba4cc-ecae-480e-9dfa-6560450d4444",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//a[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Go!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4637582-9896-4e6b-92c6-d0dd9d10bda0",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Favor validated successfully !')]", "xpath:innerText"]
+      ],
+      "value": "Favor validated successfully !"
+    }]
+  }],
+  "suites": [{
+    "id": "b34f3e37-7030-471b-80e9-40f9a11175a0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["32bc1690-6649-4e2d-93bd-25df8f49365b"]
+  }],
+  "urls": ["http://localhost:8081/"],
+  "plugins": []
+}

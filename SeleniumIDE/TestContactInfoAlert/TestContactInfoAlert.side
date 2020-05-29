@@ -10,7 +10,7 @@
       "id": "6e3253b9-85ff-4112-bed4-abd0f1ee9e00",
       "comment": "",
       "command": "open",
-      "target": "/iNeed/index.jsp",
+      "target": "/iNeed/Login.jsp",
       "targets": [],
       "value": ""
     }, {

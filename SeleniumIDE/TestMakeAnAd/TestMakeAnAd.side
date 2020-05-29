@@ -1,0 +1,215 @@
+{
+  "id": "6b71200a-1cfa-4db4-af7f-f85fb065ed05",
+  "version": "2.0",
+  "name": "TestMakeAnAd",
+  "url": "http://localhost:8081",
+  "tests": [{
+    "id": "07e77cde-32a7-452f-ae5c-626225da26d6",
+    "name": "MakeAnAd",
+    "commands": [{
+      "id": "5cbd266f-49cb-40c4-851d-ddce82a7c491",
+      "comment": "",
+      "command": "open",
+      "target": "/iNeed/Login.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd91d274-cde2-4151-95da-37a02ec5435a",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6be85b46-127f-40bc-b6a6-20b29b4ae26e",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "prova"
+    }, {
+      "id": "111a6501-93db-4de4-b84d-cc957516d38e",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='pswField']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "c5710a93-e89b-489d-918d-eabb69b9898c",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["name=login", "name"],
+        ["css=#login", "css:finder"],
+        ["xpath=//button[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='btn']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f182fa29-9f2e-410e-96ca-5c882fcfbaee",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Make An Ad",
+      "targets": [
+        ["linkText=Make An Ad", "linkText"],
+        ["css=.nav-item:nth-child(1) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Make An Ad')]", "xpath:link"],
+        ["xpath=//div[@id='navbarMenu']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'MakeAnAd.jsp')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Make An Ad')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e4d9121-f7f5-404d-80f4-e8bbf300940e",
+      "comment": "",
+      "command": "click",
+      "target": "id=title",
+      "targets": [
+        ["id=title", "id"],
+        ["name=title", "name"],
+        ["css=#title", "css:finder"],
+        ["xpath=//input[@id='title']", "xpath:attributes"],
+        ["xpath=//body[@id='corp']/div/div[3]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e069257-2096-4471-831a-c373ef5d705e",
+      "comment": "",
+      "command": "type",
+      "target": "id=title",
+      "targets": [
+        ["id=title", "id"],
+        ["name=title", "name"],
+        ["css=#title", "css:finder"],
+        ["xpath=//input[@id='title']", "xpath:attributes"],
+        ["xpath=//body[@id='corp']/div/div[3]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "TITLE SELENIUM GUI"
+    }, {
+      "id": "6c3cb7ee-c450-48b9-91b4-ca640d190b62",
+      "comment": "",
+      "command": "click",
+      "target": "id=category",
+      "targets": [
+        ["id=category", "id"],
+        ["name=category", "name"],
+        ["css=#category", "css:finder"],
+        ["xpath=//select[@id='category']", "xpath:attributes"],
+        ["xpath=//body[@id='corp']/div/div[3]/form/div[3]/select", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74f05bef-f811-4edb-aa28-fa3d93a1e1c7",
+      "comment": "",
+      "command": "select",
+      "target": "id=category",
+      "targets": [],
+      "value": "label=Informatic"
+    }, {
+      "id": "509016e9-1c76-43e4-906e-f75738be76e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=option:nth-child(4)",
+      "targets": [
+        ["css=option:nth-child(4)", "css:finder"],
+        ["xpath=//option[@value='Informatic']", "xpath:attributes"],
+        ["xpath=//select[@id='category']/option[4]", "xpath:idRelative"],
+        ["xpath=//option[4]", "xpath:position"],
+        ["xpath=//option[contains(.,'Informatic')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e52ddbfb-f96f-4f5b-9b3d-0a2c6f14eec2",
+      "comment": "",
+      "command": "click",
+      "target": "id=body",
+      "targets": [
+        ["id=body", "id"],
+        ["name=body", "name"],
+        ["css=#body", "css:finder"],
+        ["xpath=//textarea[@id='body']", "xpath:attributes"],
+        ["xpath=//body[@id='corp']/div/div[3]/form/div[5]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f11a807-6e2f-4425-ba52-abd53eb76000",
+      "comment": "",
+      "command": "type",
+      "target": "id=body",
+      "targets": [
+        ["id=body", "id"],
+        ["name=body", "name"],
+        ["css=#body", "css:finder"],
+        ["xpath=//textarea[@id='body']", "xpath:attributes"],
+        ["xpath=//body[@id='corp']/div/div[3]/form/div[5]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "BODY SELENIUM GUI"
+    }, {
+      "id": "b778fd01-f868-4378-a6e4-ccc199561c31",
+      "comment": "",
+      "command": "click",
+      "target": "id=publish",
+      "targets": [
+        ["id=publish", "id"],
+        ["name=publish", "name"],
+        ["css=#publish", "css:finder"],
+        ["xpath=//button[@id='publish']", "xpath:attributes"],
+        ["xpath=//body[@id='corp']/div/div[3]/form/div[6]/button", "xpath:idRelative"],
+        ["xpath=//div[6]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Publish')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c4955c0-4f6e-4836-962d-43fac73c1e3b",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=logos",
+      "targets": [
+        ["id=logos", "id"],
+        ["css=#logos", "css:finder"],
+        ["xpath=//p[@id='logos']", "xpath:attributes"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": "VIEW FLOW"
+    }]
+  }],
+  "suites": [{
+    "id": "5c47f196-ae54-4c9f-a2f7-8bf54a2f6961",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["07e77cde-32a7-452f-ae5c-626225da26d6"]
+  }],
+  "urls": ["http://localhost:8081/"],
+  "plugins": []
+}
