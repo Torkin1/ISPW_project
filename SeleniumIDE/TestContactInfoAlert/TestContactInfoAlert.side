@@ -24,7 +24,7 @@
       "id": "0fe8d1fd-10ac-49d5-bbf6-7611f6bc81d6",
       "comment": "",
       "command": "click",
-      "target": "id=username",
+      "target": "xpath=//input[@id='username']",
       "targets": [
         ["id=username", "id"],
         ["name=username", "name"],
@@ -37,7 +37,7 @@
       "id": "acc449fd-8e98-4972-becc-5e77dda9c9cc",
       "comment": "",
       "command": "type",
-      "target": "id=username",
+      "target": "xpath=//input[@id='username']",
       "targets": [
         ["id=username", "id"],
         ["name=username", "name"],
@@ -50,7 +50,7 @@
       "id": "7ee70801-5338-4a8b-aff7-a38387470d78",
       "comment": "",
       "command": "type",
-      "target": "id=password",
+      "target": "xpath=//input[@id='password']",
       "targets": [
         ["id=password", "id"],
         ["name=password", "name"],
@@ -64,7 +64,7 @@
       "id": "50c73275-a8bb-4bbe-9e7f-0dd622a108c1",
       "comment": "",
       "command": "click",
-      "target": "id=login",
+      "target": "xpath=//button[@id='login']",
       "targets": [
         ["id=login", "id"],
         ["name=login", "name"],
@@ -79,7 +79,7 @@
       "id": "0be00e63-634b-41c0-a65a-e3cb125545d5",
       "comment": "",
       "command": "click",
-      "target": "linkText=Selenium API",
+      "target": "xpath=//tr[4]/td[2]/a",
       "targets": [
         ["linkText=Selenium API", "linkText"],
         ["css=tr:nth-child(4) a", "css:finder"],
@@ -94,7 +94,7 @@
       "id": "05f78b02-64c8-4bb3-a3dd-739e7e9ae65e",
       "comment": "",
       "command": "click",
-      "target": "name=bCheckAnswers",
+      "target": "xpath=//button[@name='bCheckAnswers']",
       "targets": [
         ["name=bCheckAnswers", "name"],
         ["css=.btn-primary", "css:finder"],
@@ -107,7 +107,7 @@
       "id": "338a1b42-ca82-49a0-b5ba-ffbb79fe7207",
       "comment": "",
       "command": "click",
-      "target": "id=contactUser",
+      "target": "xpath=//button[@id='contactUser']",
       "targets": [
         ["id=contactUser", "id"],
         ["name=contactUser", "name"],
@@ -121,7 +121,7 @@
       "id": "781253e2-7b56-4c02-8331-a986bbeabf41",
       "comment": "",
       "command": "assertText",
-      "target": "id=contactInfo",
+      "target": "xpath=//p[@id='contactInfo']",
       "targets": [
         ["id=contactInfo", "id"],
         ["css=#contactInfo", "css:finder"],
