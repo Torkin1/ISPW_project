@@ -2,7 +2,7 @@
   "id": "6b71200a-1cfa-4db4-af7f-f85fb065ed05",
   "version": "2.0",
   "name": "TestMakeAnAd",
-  "url": "http://localhost:8081",
+  "url": "http://localhost:8081/iNeed/Login.jsp",
   "tests": [{
     "id": "07e77cde-32a7-452f-ae5c-626225da26d6",
     "name": "MakeAnAd",
@@ -11,6 +11,13 @@
       "comment": "",
       "command": "open",
       "target": "/iNeed/Login.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a2645490-3ea3-4839-ae6b-10e1488e6cbd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x705",
       "targets": [],
       "value": ""
     }, {
@@ -210,6 +217,6 @@
     "timeout": 300,
     "tests": ["07e77cde-32a7-452f-ae5c-626225da26d6"]
   }],
-  "urls": ["http://localhost:8081/"],
+  "urls": ["http://localhost:8081/", "http://localhost:8081/iNeed/Login.jsp"],
   "plugins": []
 }
