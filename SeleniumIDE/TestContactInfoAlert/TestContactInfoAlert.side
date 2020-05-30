@@ -79,14 +79,15 @@
       "id": "0be00e63-634b-41c0-a65a-e3cb125545d5",
       "comment": "",
       "command": "click",
-      "target": "linkText=Prova Selenium 0",
+      "target": "linkText=Selenium API",
       "targets": [
-        ["linkText=Prova Selenium 0", "linkText"],
-        ["css=tr:nth-child(1) a", "css:finder"],
-        ["xpath=//a[contains(text(),'Prova Selenium 0')]", "xpath:link"],
-        ["xpath=//a[contains(@href, 'ViewFlow.jsp?id=0')]", "xpath:href"],
-        ["xpath=//td[2]/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Prova Selenium 0')]", "xpath:innerText"]
+        ["linkText=Selenium API", "linkText"],
+        ["css=tr:nth-child(4) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Selenium API')]", "xpath:link"],
+        ["xpath=//table[@id='tabella']/tbody/tr[4]/td[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'ViewFlow.jsp?id=3')]", "xpath:href"],
+        ["xpath=//tr[4]/td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Selenium API')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
@@ -129,7 +130,7 @@
         ["xpath=//p[2]", "xpath:position"],
         ["xpath=//p[contains(.,'a@b.com')]", "xpath:innerText"]
       ],
-      "value": "a@b.com"
+      "value": "tt@definetlynotafakemail.net"
     }]
   }],
   "suites": [{
