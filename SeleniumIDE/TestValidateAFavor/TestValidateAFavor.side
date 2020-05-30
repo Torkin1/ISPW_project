@@ -24,7 +24,7 @@
       "id": "05a100e8-2072-4247-b4ca-9695ef0c3e71",
       "comment": "",
       "command": "click",
-      "target": "id=username",
+      "target": "xpath=//input[@id='username']",
       "targets": [
         ["id=username", "id"],
         ["name=username", "name"],
@@ -37,7 +37,7 @@
       "id": "b61a745e-bdcb-48c8-9848-ebc9ab97e125",
       "comment": "",
       "command": "type",
-      "target": "id=username",
+      "target": "xpath=//input[@id='username']",
       "targets": [
         ["id=username", "id"],
         ["name=username", "name"],
@@ -50,7 +50,7 @@
       "id": "b6db8b3d-11d5-49f9-900f-6350a2bd4c55",
       "comment": "",
       "command": "type",
-      "target": "id=password",
+      "target": "xpath=//input[@id='password']",
       "targets": [
         ["id=password", "id"],
         ["name=password", "name"],
@@ -64,7 +64,7 @@
       "id": "1a41ae57-4e73-4db1-a2ce-e807209365c8",
       "comment": "",
       "command": "click",
-      "target": "id=login",
+      "target": "xpath=//button[@id='login']",
       "targets": [
         ["id=login", "id"],
         ["name=login", "name"],
@@ -79,7 +79,7 @@
       "id": "98b9c0b7-52e2-453b-9f36-9a2fb02215fe",
       "comment": "",
       "command": "click",
-      "target": "linkText=Validate A Favor",
+      "target": "xpath=//li[3]/a",
       "targets": [
         ["linkText=Validate A Favor", "linkText"],
         ["css=.nav-item:nth-child(3) > .nav-link", "css:finder"],
@@ -94,7 +94,7 @@
       "id": "67c1e82d-5866-482e-b22d-bc4ca12744c7",
       "comment": "",
       "command": "click",
-      "target": "linkText=Validate!",
+      "target": "xpath=//td[3]/a",
       "targets": [
         ["linkText=Validate!", "linkText"],
         ["css=td > a", "css:finder"],
@@ -108,7 +108,7 @@
       "id": "474ba4cc-ecae-480e-9dfa-6560450d4444",
       "comment": "",
       "command": "click",
-      "target": "css=.btn-success",
+      "target": "xpath=//a[2]/button",
       "targets": [
         ["css=.btn-success", "css:finder"],
         ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
@@ -120,7 +120,7 @@
       "id": "b4637582-9896-4e6b-92c6-d0dd9d10bda0",
       "comment": "",
       "command": "assertText",
-      "target": "css=h1",
+      "target": "xpath=//h1",
       "targets": [
         ["css=h1", "css:finder"],
         ["xpath=//h1", "xpath:position"],

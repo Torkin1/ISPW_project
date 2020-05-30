@@ -24,7 +24,7 @@
       "id": "dd91d274-cde2-4151-95da-37a02ec5435a",
       "comment": "",
       "command": "click",
-      "target": "id=username",
+      "target": "xpath=//input",
       "targets": [
         ["id=username", "id"],
         ["name=username", "name"],
@@ -37,7 +37,7 @@
       "id": "6be85b46-127f-40bc-b6a6-20b29b4ae26e",
       "comment": "",
       "command": "type",
-      "target": "id=username",
+      "target": "xpath=//input[@id='username']",
       "targets": [
         ["id=username", "id"],
         ["name=username", "name"],
@@ -50,7 +50,7 @@
       "id": "111a6501-93db-4de4-b84d-cc957516d38e",
       "comment": "",
       "command": "type",
-      "target": "id=password",
+      "target": "xpath=//input[@id='password']",
       "targets": [
         ["id=password", "id"],
         ["name=password", "name"],
@@ -64,7 +64,7 @@
       "id": "c5710a93-e89b-489d-918d-eabb69b9898c",
       "comment": "",
       "command": "click",
-      "target": "id=login",
+      "target": "xpath=//button[@id='login']",
       "targets": [
         ["id=login", "id"],
         ["name=login", "name"],
@@ -79,7 +79,7 @@
       "id": "f182fa29-9f2e-410e-96ca-5c882fcfbaee",
       "comment": "",
       "command": "click",
-      "target": "linkText=Make An Ad",
+      "target": "xpath=//li/a",
       "targets": [
         ["linkText=Make An Ad", "linkText"],
         ["css=.nav-item:nth-child(1) > .nav-link", "css:finder"],
@@ -94,7 +94,7 @@
       "id": "6e4d9121-f7f5-404d-80f4-e8bbf300940e",
       "comment": "",
       "command": "click",
-      "target": "id=title",
+      "target": "xpath=//input[@id='title']",
       "targets": [
         ["id=title", "id"],
         ["name=title", "name"],
@@ -108,7 +108,7 @@
       "id": "3e069257-2096-4471-831a-c373ef5d705e",
       "comment": "",
       "command": "type",
-      "target": "id=title",
+      "target": "xpath=//input[@id='title']",
       "targets": [
         ["id=title", "id"],
         ["name=title", "name"],
@@ -122,7 +122,7 @@
       "id": "6c3cb7ee-c450-48b9-91b4-ca640d190b62",
       "comment": "",
       "command": "click",
-      "target": "id=category",
+      "target": "xpath=//select[@id='category']",
       "targets": [
         ["id=category", "id"],
         ["name=category", "name"],
@@ -156,7 +156,7 @@
       "id": "e52ddbfb-f96f-4f5b-9b3d-0a2c6f14eec2",
       "comment": "",
       "command": "click",
-      "target": "id=body",
+      "target": "xpath=//textarea[@id='body']",
       "targets": [
         ["id=body", "id"],
         ["name=body", "name"],
@@ -170,7 +170,7 @@
       "id": "8f11a807-6e2f-4425-ba52-abd53eb76000",
       "comment": "",
       "command": "type",
-      "target": "id=body",
+      "target": "xpath=//textarea[@id='body']",
       "targets": [
         ["id=body", "id"],
         ["name=body", "name"],
@@ -184,7 +184,7 @@
       "id": "b778fd01-f868-4378-a6e4-ccc199561c31",
       "comment": "",
       "command": "click",
-      "target": "id=publish",
+      "target": "xpath=//button[@id='publish']",
       "targets": [
         ["id=publish", "id"],
         ["name=publish", "name"],
@@ -199,7 +199,7 @@
       "id": "2c4955c0-4f6e-4836-962d-43fac73c1e3b",
       "comment": "",
       "command": "assertText",
-      "target": "id=logos",
+      "target": "xpath=//p[@id='logos']",
       "targets": [
         ["id=logos", "id"],
         ["css=#logos", "css:finder"],
