@@ -143,7 +143,7 @@
       "id": "509016e9-1c76-43e4-906e-f75738be76e2",
       "comment": "",
       "command": "click",
-      "target": "css=option:nth-child(4)",
+      "target": "xpath=//option[4]",
       "targets": [
         ["css=option:nth-child(4)", "css:finder"],
         ["xpath=//option[@value='Informatic']", "xpath:attributes"],
